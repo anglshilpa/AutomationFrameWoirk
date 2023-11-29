@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="vt.ContactsTests.CreateContactTest">
+        <methods>
+          <include name="craeteContactWithTest"/>
+          <include name="bmCnfig"/>
+          <include name="asCnfig"/>
+          <include name="bcCnfig"/>
+          <include name="acCnfig"/>
+          <include name="amCnfig"/>
+          <include name="bsCnfig"/>
+        </methods>
+      </class> <!-- vt.ContactsTests.CreateContactTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
